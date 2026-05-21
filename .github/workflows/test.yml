@@ -6,4 +6,9 @@
       runs-on: ubuntu-latest
       steps:
         - run: echo "Hello world!"
+        - run: echo "this is step number "
+    print-hello-world2: 
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "Hello world!"
         - run: echo "this is step number 2"
